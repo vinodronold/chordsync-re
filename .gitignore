@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/**/node_modules
 
 # testing
 /coverage
@@ -10,10 +11,13 @@
 /build
 
 # bucklescript
-/lib
+/**/lib
 /types
 .merlin
 *.bs.js
+
+# SASS
+*.css
 
 # misc
 .DS_Store
